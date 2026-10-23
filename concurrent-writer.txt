@@ -1,0 +1,1 @@
+Written while a Grooveloom publish was in flight, to check that a stale publish is refused.

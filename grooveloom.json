@@ -51,6 +51,12 @@
       "name": "drums",
       "version": 1,
       "path": "components/drums-5cf73e.json"
+    },
+    {
+      "id": "bass-008a35",
+      "name": "bass",
+      "version": 1,
+      "path": "components/bass-008a35.json"
     }
   ],
   "performances": []

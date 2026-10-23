@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "blocklyVersion": "13.3.0",
   "name": "My library",
-  "licence": "CC0-1.0",
+  "licence": null,
   "components": [
     {
       "id": "four-on-the-floor",
@@ -39,6 +39,12 @@
       "name": "cowbell five",
       "version": 1,
       "path": "components/cowbell-five.json"
+    },
+    {
+      "id": "github-import-example",
+      "name": "GitHub import example",
+      "version": 1,
+      "path": "components/github-import-example.json"
     }
   ],
   "performances": []

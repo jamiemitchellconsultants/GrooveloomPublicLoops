@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "id": "github-import-example",
+  "name": "GitHub import example",
+  "version": 1,
+  "description": "A single quiet kick for checking public-library import.",
+  "tags": [
+    "example"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "GitHub import example"
+    },
+    "next": {
+      "block": {
+        "type": "gl_sequence",
+        "inputs": {
+          "STEPS": {
+            "block": {
+              "type": "gl_drum",
+              "fields": {
+                "SOUND": "kick"
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_volume",
+            "fields": {
+              "LEVEL": 0.2
+            }
+          }
+        }
+      }
+    }
+  }
+}

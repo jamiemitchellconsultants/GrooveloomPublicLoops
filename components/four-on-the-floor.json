@@ -1,0 +1,64 @@
+{
+  "formatVersion": 1,
+  "id": "four-on-the-floor",
+  "name": "four on the floor",
+  "version": 1,
+  "description": "A kick on every beat, at a firm volume.",
+  "tags": [
+    "drums"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "four on the floor"
+    },
+    "next": {
+      "block": {
+        "type": "gl_sequence",
+        "inputs": {
+          "STEPS": {
+            "block": {
+              "type": "gl_drum",
+              "fields": {
+                "SOUND": "kick"
+              },
+              "next": {
+                "block": {
+                  "type": "gl_drum",
+                  "fields": {
+                    "SOUND": "kick"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "gl_drum",
+                      "fields": {
+                        "SOUND": "kick"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "gl_drum",
+                          "fields": {
+                            "SOUND": "kick"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_volume",
+            "fields": {
+              "LEVEL": 0.9
+            }
+          }
+        }
+      }
+    }
+  }
+}

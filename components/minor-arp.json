@@ -1,0 +1,86 @@
+{
+  "formatVersion": 1,
+  "id": "minor-arp",
+  "name": "minor arp",
+  "version": 1,
+  "description": "A plucked C minor seventh arpeggio, played twice as fast.",
+  "tags": [
+    "melody"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "minor arp"
+    },
+    "next": {
+      "block": {
+        "type": "gl_fast",
+        "fields": {
+          "FACTOR": 2
+        },
+        "inputs": {
+          "BODY": {
+            "block": {
+              "type": "gl_sequence",
+              "inputs": {
+                "STEPS": {
+                  "block": {
+                    "type": "gl_note",
+                    "fields": {
+                      "NOTE": "C",
+                      "OCTAVE": 4
+                    },
+                    "next": {
+                      "block": {
+                        "type": "gl_note",
+                        "fields": {
+                          "NOTE": "D#",
+                          "OCTAVE": 4
+                        },
+                        "next": {
+                          "block": {
+                            "type": "gl_note",
+                            "fields": {
+                              "NOTE": "G",
+                              "OCTAVE": 4
+                            },
+                            "next": {
+                              "block": {
+                                "type": "gl_note",
+                                "fields": {
+                                  "NOTE": "A#",
+                                  "OCTAVE": 4
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_instrument",
+            "fields": {
+              "SOUND": "pluck"
+            },
+            "next": {
+              "block": {
+                "type": "gl_volume",
+                "fields": {
+                  "LEVEL": 0.5
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

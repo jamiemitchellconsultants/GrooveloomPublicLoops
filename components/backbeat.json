@@ -1,0 +1,58 @@
+{
+  "formatVersion": 1,
+  "id": "backbeat",
+  "name": "backbeat",
+  "version": 1,
+  "description": "A snare on the second and fourth beats.",
+  "tags": [
+    "drums"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "backbeat"
+    },
+    "next": {
+      "block": {
+        "type": "gl_sequence",
+        "inputs": {
+          "STEPS": {
+            "block": {
+              "type": "gl_rest",
+              "next": {
+                "block": {
+                  "type": "gl_drum",
+                  "fields": {
+                    "SOUND": "snare"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "gl_rest",
+                      "next": {
+                        "block": {
+                          "type": "gl_drum",
+                          "fields": {
+                            "SOUND": "snare"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_volume",
+            "fields": {
+              "LEVEL": 0.7
+            }
+          }
+        }
+      }
+    }
+  }
+}

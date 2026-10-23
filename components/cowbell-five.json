@@ -1,0 +1,43 @@
+{
+  "formatVersion": 1,
+  "id": "cowbell-five",
+  "name": "cowbell five",
+  "version": 1,
+  "description": "A cowbell with five hits spread over sixteen steps, shifted off the downbeat.",
+  "tags": [
+    "percussion"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "cowbell five"
+    },
+    "next": {
+      "block": {
+        "type": "gl_euclid",
+        "fields": {
+          "HITS": 5,
+          "STEPS": 16,
+          "ROTATE": 2
+        },
+        "next": {
+          "block": {
+            "type": "gl_drum",
+            "fields": {
+              "SOUND": "cowbell"
+            },
+            "next": {
+              "block": {
+                "type": "gl_volume",
+                "fields": {
+                  "LEVEL": 0.4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "formatVersion": 1,
+  "id": "offbeat-hats",
+  "name": "offbeat hats",
+  "version": 1,
+  "description": "A closed hat between the beats, eight steps to the bar.",
+  "tags": [
+    "drums"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "offbeat hats"
+    },
+    "next": {
+      "block": {
+        "type": "gl_sequence",
+        "inputs": {
+          "STEPS": {
+            "block": {
+              "type": "gl_rest",
+              "next": {
+                "block": {
+                  "type": "gl_drum",
+                  "fields": {
+                    "SOUND": "closed_hat"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "gl_rest",
+                      "next": {
+                        "block": {
+                          "type": "gl_drum",
+                          "fields": {
+                            "SOUND": "closed_hat"
+                          },
+                          "next": {
+                            "block": {
+                              "type": "gl_rest",
+                              "next": {
+                                "block": {
+                                  "type": "gl_drum",
+                                  "fields": {
+                                    "SOUND": "closed_hat"
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "gl_rest",
+                                      "next": {
+                                        "block": {
+                                          "type": "gl_drum",
+                                          "fields": {
+                                            "SOUND": "closed_hat"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_volume",
+            "fields": {
+              "LEVEL": 0.5
+            }
+          }
+        }
+      }
+    }
+  }
+}

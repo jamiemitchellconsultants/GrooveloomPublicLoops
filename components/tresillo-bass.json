@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "id": "tresillo-bass",
+  "name": "tresillo bass",
+  "version": 1,
+  "description": "A bass line of three uneven hits in eight steps, on a low C.",
+  "tags": [
+    "bass"
+  ],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "tresillo bass"
+    },
+    "next": {
+      "block": {
+        "type": "gl_euclid",
+        "fields": {
+          "HITS": 3,
+          "STEPS": 8,
+          "ROTATE": 0
+        },
+        "next": {
+          "block": {
+            "type": "gl_note",
+            "fields": {
+              "NOTE": "C",
+              "OCTAVE": 2
+            },
+            "next": {
+              "block": {
+                "type": "gl_instrument",
+                "fields": {
+                  "SOUND": "tb303"
+                },
+                "next": {
+                  "block": {
+                    "type": "gl_cutoff",
+                    "fields": {
+                      "FREQUENCY": 900
+                    },
+                    "next": {
+                      "block": {
+                        "type": "gl_volume",
+                        "fields": {
+                          "LEVEL": 0.6
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

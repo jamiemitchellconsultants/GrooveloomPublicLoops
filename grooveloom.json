@@ -1,0 +1,45 @@
+{
+  "formatVersion": 1,
+  "blocklyVersion": "13.3.0",
+  "name": "My library",
+  "licence": "CC0-1.0",
+  "components": [
+    {
+      "id": "four-on-the-floor",
+      "name": "four on the floor",
+      "version": 1,
+      "path": "components/four-on-the-floor.json"
+    },
+    {
+      "id": "backbeat",
+      "name": "backbeat",
+      "version": 1,
+      "path": "components/backbeat.json"
+    },
+    {
+      "id": "offbeat-hats",
+      "name": "offbeat hats",
+      "version": 1,
+      "path": "components/offbeat-hats.json"
+    },
+    {
+      "id": "tresillo-bass",
+      "name": "tresillo bass",
+      "version": 1,
+      "path": "components/tresillo-bass.json"
+    },
+    {
+      "id": "minor-arp",
+      "name": "minor arp",
+      "version": 1,
+      "path": "components/minor-arp.json"
+    },
+    {
+      "id": "cowbell-five",
+      "name": "cowbell five",
+      "version": 1,
+      "path": "components/cowbell-five.json"
+    }
+  ],
+  "performances": []
+}

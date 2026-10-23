@@ -45,6 +45,12 @@
       "name": "GitHub import example",
       "version": 1,
       "path": "components/github-import-example.json"
+    },
+    {
+      "id": "drums-5cf73e",
+      "name": "drums",
+      "version": 1,
+      "path": "components/drums-5cf73e.json"
     }
   ],
   "performances": []

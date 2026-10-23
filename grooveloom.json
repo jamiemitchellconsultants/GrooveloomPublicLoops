@@ -41,22 +41,10 @@
       "path": "components/cowbell-five.json"
     },
     {
-      "id": "github-import-example",
-      "name": "GitHub import example",
-      "version": 1,
-      "path": "components/github-import-example.json"
-    },
-    {
-      "id": "drums-5cf73e",
+      "id": "drums-2e17c5",
       "name": "drums",
       "version": 1,
-      "path": "components/drums-5cf73e.json"
-    },
-    {
-      "id": "bass-008a35",
-      "name": "bass",
-      "version": 1,
-      "path": "components/bass-008a35.json"
+      "path": "components/drums-2e17c5.json"
     }
   ],
   "performances": []

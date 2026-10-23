@@ -1,0 +1,62 @@
+{
+  "formatVersion": 1,
+  "id": "drums-2e17c5",
+  "name": "drums",
+  "version": 1,
+  "description": "",
+  "tags": [],
+  "origin": null,
+  "blocks": {
+    "type": "gl_voice",
+    "fields": {
+      "NAME": "drums"
+    },
+    "next": {
+      "block": {
+        "type": "gl_sequence",
+        "inputs": {
+          "STEPS": {
+            "block": {
+              "type": "gl_drum",
+              "fields": {
+                "SOUND": "kick"
+              },
+              "next": {
+                "block": {
+                  "type": "gl_drum",
+                  "fields": {
+                    "SOUND": "closed_hat"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "gl_drum",
+                      "fields": {
+                        "SOUND": "snare"
+                      },
+                      "next": {
+                        "block": {
+                          "type": "gl_drum",
+                          "fields": {
+                            "SOUND": "closed_hat"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "gl_volume",
+            "fields": {
+              "LEVEL": 0.8
+            }
+          }
+        }
+      }
+    }
+  }
+}
